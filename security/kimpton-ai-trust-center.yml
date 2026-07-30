@@ -1,0 +1,36 @@
+generated: '2026-07-19'
+method: searched
+source: https://trust.kimpton.ai
+type: TrustCenter
+name: Kimpton AI Trust Center
+provider: kimpton-ai
+trust_center:
+  url: https://trust.kimpton.ai
+  title: Kimpton.AI Trust Center
+  status: live
+security_page: https://kimpton.ai/security
+privacy_policy: https://kimpton.ai/privacy
+compliance:
+- framework: SOC 2 Type II
+  status: in-progress
+  evidence: >-
+    kimpton.ai/security and the privacy policy state a "SOC 2 Type II audit in
+    review"; live status published at trust.kimpton.ai. Not yet certified —
+    recorded as in-progress, not a completed attestation.
+security_practices:
+- Read-only access to connected portfolios
+- Customer data never used to train AI models
+- Revocable portfolio connections with immediate data deletion
+- Per-customer tenant isolation with private sandboxes
+- AES-256 encryption at rest
+- TLS 1.2+ encryption in transit
+- Multi-factor authentication via Auth0
+- US-based infrastructure on SOC 2 Type II compliant providers
+roadmap:
+- Fine-grained access controls
+- Audit trails
+- SAML SSO for enterprise
+notes: >-
+  No named/completed certification published as of the last check; SOC 2 Type II
+  is in review. A Compliance canonical pointer is intentionally NOT emitted in
+  apis.yml until an attestation is achieved and published.
