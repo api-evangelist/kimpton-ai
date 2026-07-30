@@ -1,7 +1,29 @@
 aid: kimpton-ai
-name: Kimpton Ai
-description: Kimpton Ai is a company surfaced as a portfolio company of y-combinator and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kimpton-ai.png
+name: Kimpton AI
+description: >-
+  Kimpton AI is an AI-native investment research platform for institutional
+  portfolio managers at hedge funds, mutual funds, and sustainable equity funds.
+  It ingests market data, SEC filings, 13F holdings, earnings, and a fund's own
+  investment mandates and research documents, then generates daily trade
+  proposals with citations grounded in the fund's actual holdings — keeping human
+  managers in control of every final decision. The platform connects to
+  custodians and OMS/portfolio systems (or accepts direct uploads) to sync
+  positions and P&L, aggregates mandates and research in a document vault, and
+  integrates market-data partners FactSet, Tiingo, Massive, and Plaid. It is a
+  managed service for professional investors and does not currently expose a
+  public developer API. Backed by Y Combinator.
 url: https://raw.githubusercontent.com/api-evangelist/kimpton-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +33,50 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Artificial Intelligence
+- Investment Research
+- FinTech
+- Financial Services
+- Portfolio Management
+- Trade Analytics
+- Research Automation
+- Hedge Funds
 apis: []
+common:
+- type: Website
+  url: https://kimpton.ai
+- type: About
+  url: https://kimpton.ai/about
+- type: Blog
+  url: https://kimpton.ai/news
+- type: Support
+  url: https://kimpton.ai/support
+- type: Login
+  url: https://kimpton.ai/chat
+- type: PrivacyPolicy
+  url: https://kimpton.ai/privacy
+- type: TermsOfService
+  url: https://kimpton.ai/terms
+- type: Security
+  url: security/kimpton-ai-vulnerability-disclosure.yml
+- type: VulnerabilityDisclosure
+  url: security/kimpton-ai-vulnerability-disclosure.yml
+- type: TrustCenter
+  url: security/kimpton-ai-trust-center.yml
+- type: LinkedIn
+  url: https://www.linkedin.com/showcase/kimpton-ai/
+- type: Twitter
+  url: https://x.com/KimptonAI
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
