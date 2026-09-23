@@ -1,0 +1,30 @@
+# Front Door AI Index — kimpton-ai — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: kimpton-ai
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: kimpton.ai
+  final_host: kimpton.ai
+  ownership: own
+  owner: kimpton-ai
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 6
+  host_score: 6
+  density: 8.84
+  words: 679
+  tiers:
+    agentic: 0
+    core: 2
+    model: 4
+  ambiguous: 5
+  top_terms:
+    agent: 5
+    AI: 2
+    Claude: 1
+    GPT: 1
+    Gemini: 1
+    Mistral: 1
