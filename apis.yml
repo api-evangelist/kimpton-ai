@@ -50,8 +50,8 @@ tags:
 - Artificial Intelligence
 - Investment Research
 - Fintech
-- Financial-Services
-- Portfolio-Management
+- Financial Services
+- Portfolio Management
 - Trade Analytics
 - Research Automation
 - Hedge Funds
@@ -65,6 +65,8 @@ tags_raw:
 - Trade Analytics
 - Research Automation
 - Hedge Funds
+- Financial-Services
+- Portfolio-Management
 apis: []
 common:
 - type: Website
